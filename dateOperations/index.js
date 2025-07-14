@@ -90,8 +90,6 @@ function renderDate(fullDate) {
   console.log(lines.join("\n"))
 }
 
-//Собираю ответы в объект
-
 function writeAnswers(result) {
   this.day = getDay()
   console.log("Число вашего рождения:", this.day)
